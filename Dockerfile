@@ -1,5 +1,5 @@
 FROM alpine:latest
-
+LABEL maintainer="lusalem@gmail.com"
 ARG TARGETPLATFORM=linux/amd64
 
 COPY download_webproc.sh /download_webproc.sh
