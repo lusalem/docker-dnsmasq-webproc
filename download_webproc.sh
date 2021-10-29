@@ -14,7 +14,7 @@ case $TARGETPLATFORM in
         ;;
 esac
 
-WEBPROC_VERSION=0.3.0
+WEBPROC_VERSION=0.4.0
 WEBPROC_URL="https://github.com/jpillora/webproc/releases/download/v$WEBPROC_VERSION/webproc_${WEBPROC_VERSION}_linux_${ARCH}.gz"
 
 curl -sL $WEBPROC_URL | gzip -d - > /usr/local/bin/webproc
